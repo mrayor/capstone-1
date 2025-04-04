@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}    
+header {
+    background-color: rgb(35, 101, 122);
+    color: #ffffff;
+    padding-top: 1px;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 50px 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding {
+    margin: 5px;
+}
+header nav {
+    float: right;
+    margin-top: 20px;
+   
+}
+
+/*showcase*/
+.showcase {
+    background-color: rgb(236, 236, 236);
+    height: 200px;
+}
+.showcase h1{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.showcase p{
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.showcase button {
+    background: rgb(190, 106, 75);
+    color: #ffffff;
+    font-size: 7px;
+    margin-bottom: 10px;
+    border: none;
+    margin-top: 10px;
+    position: relative;
+    left: 80px;
+    padding: 5px 5px;
+    
+}
+#container {
+    width: 200px;
+    height: 100px;
+    background-color: #5f5858;
+    display: block;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    top: 40px;
+    left: 400px;
+
+}
+#newsletter{
+    background-color: #ffffff;
+}
+.highlight h1{
+    color: rgb(23, 23, 216);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 8px;
+    margin-top: 15px;
+    
+}
+p{
+    font: 5px;
+    margin: 5px;
+}
+ul {
+    position: relative;
+    left: 40px;
+}
+.boxes {
+    background-color: rgb(236, 236, 236);
+    margin: 10px;
+}
+*.container h1 {
+    color: rgb(109, 201, 109);
+    padding-top: 10px;
+    
+    
+}
+p {
+    font: 6px;
+    padding-bottom: 5px;
+    
+}
+.contact {
+    background-color: #ffffff;
+}
+.address h1{
+    color: #ca5757;
+}
+p {
+    margin-top:  0px;
+}
+footer {
+    background-color: rgb(35, 101, 122);
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+}
