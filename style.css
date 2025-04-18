@@ -1,0 +1,220 @@
+body {
+    background-color: #f00;
+}
+
+.layout {
+    background-color: #ffffff;
+    width: 60rem;
+    height: 100%;
+    padding-top: 0%;
+}
+
+.container {
+    width: 85%;
+    height: 95%;
+    left: 195px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 112px;
+
+}
+
+.row {
+    width: 63vw;
+    height: 18vh;
+    background-color: rgb(56, 19, 19);
+    
+}
+
+.main-content {
+    width: 691px;
+    height: 134px;
+    gap: 10px;
+    
+}
+
+.heading {
+    width: 59px;
+    height: 24px;
+    font-family: monospace;
+    font-weight: 150;
+    size: 14px;
+    line-height: 24px;
+    letter-spacing: o.2px;
+    color: #fc724d;
+
+}
+
+.product {
+    font-family: monospace;
+    weight: 500;
+    size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+}
+
+.physics {
+    font-family: monospace;
+    weight: 400;
+    size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.row__design {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 1fr 1fr 1fr 1fr */
+    grid-gap: 2px;
+    width: 469px;
+    padding-left: 90px;
+    padding-top: 0.3%;
+    padding-bottom: 15%;
+    height: 62.6vh;
+    gap: 20px;
+}
+
+.tittle {
+    padding-bottom: 40%;
+}
+
+
+.column__dental--surgeon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.column__appointment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.column__health {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.column__procedure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.image {
+   display: block;
+   margin-top: 20vh;
+   width: 60%;
+   height: auto;
+   padding-left: 19%;
+   padding-bottom: 8%;
+   
+}
+
+.column1__page {
+    background-image: url(product-cover-133\ sec-.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25wvh;
+    height: 32vh;
+}
+
+.column2__page {
+    background-image: url(product-cover-131.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.column3__page {
+    background-image: url(product-cover-130\ sec-.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.column4__page {
+    background-image: url(product-cover-132\ sec-.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button {
+    margin-left: 10px;
+    margin-top: 13px;
+    background-color: #e74040;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.button__sale {
+    font-size: 63%;
+    letter-spacing: 0.2px;
+    
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.6em;
+    justify-content: center;       
+}
+
+.version {
+    width: 20%;
+    height: auto;
+    margin-right: 40px;
+}
+
+.text {
+    padding-left: 1rem;
+    
+}
+
+.language {
+    font-family: ;
+    font-weight: 600;
+    size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    color: #252b42;
+}
+
+.review {
+    font-family: ;
+    font-weight: 250;
+    size: 10px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.price {
+    display: flex;
+    gap: 0.2em;
+    
+    
+}
+
+.sales__amount {
+    display: flex;
+    gap: 0.2em;
+}
