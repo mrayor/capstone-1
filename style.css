@@ -1,220 +1,188 @@
-body {
-    background-color: #f00;
-}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .layout {
-    background-color: #ffffff;
-    width: 60rem;
-    height: 100%;
-    padding-top: 0%;
-}
-
-.container {
-    width: 85%;
-    height: 95%;
-    left: 195px;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    gap: 112px;
-
-}
-
-.row {
-    width: 63vw;
-    height: 18vh;
-    background-color: rgb(56, 19, 19);
-    
-}
-
-.main-content {
-    width: 691px;
-    height: 134px;
-    gap: 10px;
-    
+    margin: 0 auto;
+    max-width: 900px;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
 }
 
 .heading {
-    width: 59px;
-    height: 24px;
-    font-family: monospace;
-    font-weight: 150;
-    size: 14px;
-    line-height: 24px;
-    letter-spacing: o.2px;
+    font-family: Montserrat;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
     color: #fc724d;
-
 }
 
 .product {
-    font-family: monospace;
-    weight: 500;
-    size: 40px;
-    line-height: 50px;
-    letter-spacing: 0.2px;
+    font-family: Montserrat;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 2em;
     color: #252b42;
 }
 
 .physics {
-    font-family: monospace;
-    weight: 400;
-    size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
+    font-family: Montserrat;
+    font-size: 0.9em;
+    font-weight: 600;
+    width: 45%;
     color: #737373;
 }
 
-.row__design {
+.container__row--design {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 1fr 1fr 1fr 1fr */
-    grid-gap: 2px;
-    width: 469px;
-    padding-left: 90px;
-    padding-top: 0.3%;
-    padding-bottom: 15%;
-    height: 62.6vh;
-    gap: 20px;
-}
-
-.tittle {
-    padding-bottom: 40%;
-}
-
-
-.column__dental--surgeon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2px;
-    background-color: #ffffff;
-}
-
-.column__appointment {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2px;
-    background-color: #ffffff;
-}
-
-.column__health {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2px;
-    background-color: #ffffff;
-}
-
-.column__procedure {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2px;
-    background-color: #ffffff;
-}
-
-.image {
-   display: block;
-   margin-top: 20vh;
-   width: 60%;
-   height: auto;
-   padding-left: 19%;
-   padding-bottom: 8%;
-   
+    grid-template-columns: repeat(4, 215px);
+    grid-gap: 10px;
+    margin-top: 4rem;
 }
 
 .column1__page {
-    background-image: url(product-cover-133\ sec-.png);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 25wvh;
-    height: 32vh;
-}
-
-.column2__page {
-    background-image: url(product-cover-131.png);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.column3__page {
-    background-image: url(product-cover-130\ sec-.png);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-
-
-}
-
-.column4__page {
-    background-image: url(product-cover-132\ sec-.png);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-button {
-    margin-left: 10px;
-    margin-top: 13px;
-    background-color: #e74040;
-    color: white;
-    border: none;
-    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 180px;
+    height: 40vh;
+    width: 15vw;
+    background-image: url(images/product-cover-133\ sec-.png);
+    
 }
 
 .button__sale {
-    font-size: 63%;
-    letter-spacing: 0.2px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: #e74040;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-family: Montserrat;
+}
+
+.button__sale:hover {
+    background-color: aqua;
+    color: #252b42;
+    cursor: pointer;
+}
+
+.image {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     
+}
+
+.column2__page {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 180px;
+    height: 40vh;
+    width: 15vw;
+    background-image: url(images/product-cover-131.png);
+}
+
+.column3__page {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 180px;
+    height: 40vh;
+    width: 15vw;
+    background-image: url(images/product-cover-130\ sec-.png);
+}
+
+.column4__page {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 180px;
+    height: 40vh;
+    width: 15vw;
+    background-image: url(images/product-cover-132\ sec-.png);
 }
 
 .head {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.6em;
-    justify-content: center;       
+    margin-top: 15px;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 0.5em;
+    color: #fc724d;
 }
 
 .version {
-    width: 20%;
+    width: 15%;
     height: auto;
-    margin-right: 40px;
-}
-
-.text {
-    padding-left: 1rem;
-    
 }
 
 .language {
-    font-family: ;
+    font-family: Montserrat;
+    font-size: 1em;
     font-weight: 600;
-    size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 2px;
+    width: 65%;
     color: #252b42;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    line-height: 20px;
 }
 
 .review {
-    font-family: ;
-    font-weight: 250;
-    size: 10px;
-    letter-spacing: 0.2px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 0.7em;
+    width: 60%;
     color: #737373;
+}
+
+.sales--amount {
+    width: 20%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .price {
     display: flex;
-    gap: 0.2em;
-    
-    
+    gap: 5px;
+    font-family: Montserrat;
+    font-size: 0.7em;
+    margin-bottom: ;
 }
 
-.sales__amount {
-    display: flex;
-    gap: 0.2em;
+.price__primary {
+   color: #bdbdbd;
+}
+
+.price__secondary {
+    color: #0061ff;
+}
+
+.btn {
+    font-family: Montserrat;
+    font-size: 0.6em;
+    font-weight: 500;
+    background-color: transparent;
+    color: #fc724d;
+    padding: 0.5rem;
+    margin-top: 0.7em;
+    border: 1px solid #fc724d;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #252b42;
+    color: #ffffff;
+    border: none;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .container__row--design {
+        grid-template-columns: 1fr;
+    }
 }
