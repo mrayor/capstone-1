@@ -1,43 +1,57 @@
-/* *, *::before, *::after {
+*, *::before, *::after {
    box-sizing: border-box;
- } */
+ }
+
+ html, body {
+  margin: 0;
+  padding: 0;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
  
 /* SECTION 2 CSS */
 .section-2__layout{
-   width: 1440px;
-   height: 782px;
+   max-width: 1440px;
+   width: 100%;
+   max-height: 782px;
+   height: 100%;
    background-color: #FFFFFF;
-   box-sizing: border-box;
-   /* just added */
    display: flex;
-   align-items: center;
+   flex-direction: column;
+   /* align-items: center; */
    justify-content: center;
-   position: relative;
+   /* position: relative; */
    
 }
 
 .section-2__container{
-   width: 1050px;
-   height: 778px;
-   position: absolute;
-   left: 195px;
+   max-width: 1050px;
+   width: 100%;
+   max-height: 778px;
+   height: 100%;
    gap: 112px;
-   padding: 112px 112px;
    display: flex;
    flex-direction: column;
+   align-items: center;
    margin: 0 auto;
+   padding: 112px 0;
 }
 
 .section-2__row__1{
-   width: 1044px;
-   height: 134px;
+   max-width: 1044px;
+   width: 100%;
+   max-height: 134px;
+   height: 100%;
    /* display: flex;
    flex-direction: column; */
    }
 
 .row__1__main__content{
-   width: 691px;
-   height: 134px;
+   width: 100%;
+  max-width: 691px;
+  height: auto;
    display: flex;
    flex-direction: column;
    gap: 10px;
@@ -81,8 +95,10 @@
 
 /* laayout 3 row 2 */
 .section-2__row__2{
-   width: 1049px;
-   height: 308px;
+   max-width: 1049px;
+   width: 100%;
+   max-height: 308px;
+   height: 100%;
    gap: 30px;
    display: flex;
    flex-direction: row;
@@ -134,7 +150,7 @@
    width: 138px;
    height: 24px;
    font-weight: 700;
-   font-size: 16px;
+   font-size: 14px;
    line-height: 24px;
    letter-spacing: 0.1px;
    color: #252B42;
@@ -145,7 +161,7 @@
    width: 154px;
    height: 24px;
    font-weight: 700;
-   font-size: 16px;
+   font-size: 14px;
    line-height: 24px;
    letter-spacing: 0.1px;
    color: #FFFFFF;
@@ -180,6 +196,93 @@
    width: 50px;
    height: 2px;
    background-color: #E74040;
+}
+
+/* ========================
+   Responsive Layout
+   ======================== */
+@media (max-width: 1024px) {
+  .section-2__container {
+    padding: 80px 20px;
+    gap: 80px;
+  }
+
+  .section-2__row__1,
+  .row__1__main__content {
+    width: 100%;
+  }
+
+  .main__content__heading--mid {
+    font-size: 32px;
+    width: auto;
+  }
+
+  .main__content__paragraph {
+    font-size: 13px;
+    width: auto;
+  }
+
+  .section-2__row__2 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .card--white__column,
+  .card--red__column {
+    width: 48%;
+    height: auto;
+  }
+
+  .card {
+    padding: 25px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__content__heading--mid {
+    font-size: 26px;
+  }
+
+  .main__content__paragraph {
+    font-size: 12px;
+  }
+
+  .card--white__column,
+  .card--red__column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-2__container {
+    padding: 60px 15px;
+    gap: 60px;
+  }
+
+  .main__content__heading--mid {
+    font-size: 22px;
+  }
+
+  .main__content__heading--small {
+    font-size: 12px;
+  }
+
+  .card {
+    padding: 20px 15px;
+  }
+
+  .card__title--white,
+  .card__title--red {
+    font-size: 14px;
+  }
+
+  .card__paragraph--white,
+  .card__paragraph--red {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 
 /* END OF SECTION 2 */
