@@ -89,7 +89,7 @@ body {
 .hero {
   width: 1440px;
   height: 729px;
-  background-image: url('images/doctor.png');
+  background-image: url(/image/doctor.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
