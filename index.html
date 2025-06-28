@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Capstone Medical Landing Page</title>
-   <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
    <!-- <script src="https://kit.fontawesome.com/85d57bea66.js" crossorigin="anonymous"></script> -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="style/reset.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+   <link rel="stylesheet" href="style.css"> <!-- Change later-->
+   <link rel="stylesheet" href="style/reset.css">
    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
    <!-- Header here -->
-   <!-- your header code here -->
+   <!-- Header/Navbar -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">BrandName</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="auth-links">
+        <a href="#" class="login-link">Login</a>
+        <a href="#" class="join-btn">JOIN US</a>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Layout for section 2 of Medical landing page -->
+   <!-- Hero Section -->
+   <main class="hero">
+      <div class="hero-content">
+        <h5 class="welcome">Welcome</h5>
+        <h1>A Great Place to<br />Receive Care</h1>
+        <p class="sub-text">Overcame any hurdle or any other problem.</p>
+        <div class="hero-buttons">
+          <button class="hero-join-btn">JOIN US</button>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </div>
+   </main>
+   <!-- End of Header section -->
+
+   <!-- Layout for section 2 of Medical landing page -->
    <section class="section-2__layout">
       <div class="section-2__container">
          <div class="impression__content">
@@ -196,15 +223,97 @@
          </div>
 
       </article>
-
+      <!-- End of section 5 -->
    <!-- Section 6 -->
    <!-- section 6 code here -->
 
    
    <!-- Section 7 -->
-    <!-- section 7 code here -->
    
    <!-- Newslettter section -->
+ <section class="team-section">
+   <div class="team-container">
+     <div class="text-content">
+       <div class="team-description">
+         <h6>team</h6>
+         <h2>Our Team</h2>
+         <p>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+       </div>
+     </div>
+
+     <div class="team-stack">
+       <div class="card-box">
+         <div class="team-card">
+           <div class="image-container">
+             <img src="./images/user-cover-1.jpg" alt="Julian Jameson" class="team-img">
+           </div>
+           <div class="team-body">
+             <h5>Julian Jameson</h5>
+             <small>Profession</small>
+             <div class="social-icons">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="card-box">
+         <div class="team-card">
+           <div class="image-container">
+             <img src="./images/user-cover-2.jpg" alt="Julian Jameson" class="team-img">
+           </div>            
+           <div class="team-body">
+             <h5>Julian Jameson</h5>
+             <small>Profession</small>
+             <div class="social-icons">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="card-box">
+         <div class="team-card">
+           <div class="image-container">
+             <img src="./images/user-cover-3.jpg" alt="Julian Jameson" class="team-img">
+           </div>
+           <div class="team-body">
+             <h5>Julian Jameson</h5>
+             <small>Profession</small>
+             <div class="social-icons">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="card-box">
+         <div class="team-card">
+           <div class="image-container">
+             <img src="./images/user-cover-4.jpg" alt="Julian Jameson" class="team-img">
+           </div>
+           <div class="team-body">
+             <h5>Julian Jameson</h5>
+             <small>Profession</small>
+             <div class="social-icons">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+<!-- section 7 ends -->
+
       <section class="newsletter-container">
          <div class="heading">
             <h1>Newsletter</h1>
@@ -307,4 +416,5 @@
    <!-- END OF FOOTER -->
                
 </body>
+
 </html>
