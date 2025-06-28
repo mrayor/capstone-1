@@ -151,7 +151,7 @@ h3 {
     gap: 5px;
     font-family: Montserrat;
     font-size: 0.7em;
-    margin-bottom: ;
+    /* margin-bottom: ; */  /* undeclared margin value */
 }
 
 .price__primary {
