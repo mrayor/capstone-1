@@ -1,270 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Universal CSS Rule Here */
+/* Universal css */
 
+/* Header Section CSS here */
 
-.container {
-    margin: 0 auto;
-    max-width: 900px;
-    padding-top: 4rem;
-    padding-bottom: 5rem;
-}
+/* Header Section css code ends here */
 
-.heading {
-    font-family: Montserrat;
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 1.5em;
-    color: #fc724d;
-}
+/* Section 2 CSS here */
 
-.product {
-    font-family: Montserrat;
-    font-size: 2em;
-    font-weight: 700;
-    line-height: 2em;
-    color: #252b42;
-}
+/* Section 2 css code ends here */
 
-.physics {
-    font-family: Montserrat;
-    font-size: 0.9em;
-    font-weight: 600;
-    width: 45%;
-    color: #737373;
-}
+/* Section 3 CSS here */
 
-.container__row--design {
-    display: grid;
-    grid-template-columns: repeat(4, 215px);
-    grid-gap: 10px;
-    margin-top: 4rem;
-    max-width: 900px;
-    margin: 0 auto;
-}
+/* Section 3 css code ends here */
 
-.column1__page {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 180px;
-    height: 40vh;
-    width: 15vw;
-    background-image: url("../images/product-cover-133.png");
-}
+/* Section 4 CSS here */
 
-.button__sale {
-    margin-top: 15px;
-    margin-left: 10px;
-    background-color: #e74040;
-    color: #fff;
-    border-radius: 5px;
-    border: none;
-    font-family: Montserrat;
-}
+/* Section 4 css code ends here */
 
-.button__sale:hover {
-    background-color: aqua;
-    color: #252b42;
-    cursor: pointer;
-}
+/* Section 5 CSS here */
 
-.image {
-    width: 60%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    
-}
+/* Section 5 css code ends here */
 
-.column2__page {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 180px;
-    height: 40vh;
-    width: 15vw;
-    background-image: url("../images/product-cover-131.png");
-}
+/* Section 6 CSS here */
 
-.column3__page {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 180px;
-    height: 40vh;
-    width: 15vw;
-    background-image: url("../images/product-cover-130.png");
-}
+/* Section 6 css code ends here */
 
-.column4__page {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 180px;
-    height: 40vh;
-    width: 15vw;
-    background-image: url("../images/product-cover-132.png");
-}
+/* Section 7 CSS here */
 
-.head {
-    display: flex;
-    margin-top: 15px;
-}
+/* Section 7 css code ends here */
 
-h3 {
-    font-family: Montserrat;
-    font-size: 0.9em;
-    color: #fc724d;
-}
+/* Section 8 CSS here */
 
-.version {
-    width: 15%;
-    height: auto;
-}
+/* Section 8 css code ends here */
 
-.language {
-    font-family: Montserrat;
-    font-size: 1em;
-    font-weight: 600;
-    width: 65%;
-    color: #252b42;
-    margin-top: 0.8em;
-    margin-bottom: 0.5em;
-    line-height: 20px;
-}
+/* Foter Section  CSS here */
 
-.review {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 0.7em;
-    width: 60%;
-    color: #737373;
-}
-
-.sales--amount {
-    width: 30%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-.price {
-    display: flex;
-    gap: 5px;
-    font-family: Montserrat;
-    font-size: 0.7em;
-    margin-bottom: ;
-}
-
-.price__primary {
-   color: #bdbdbd;
-}
-
-.price__secondary {
-    color: #0061ff;
-}
-
-.btn {
-    font-family: Montserrat;
-    font-size: 0.6em;
-    font-weight: 500;
-    background-color: transparent;
-    color: #fc724d;
-    padding: 0.5rem;
-    margin-top: 0.7em;
-    border: 1px solid #fc724d;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #252b42;
-    color: #ffffff;
-    border: none;
-    font-size: 1em;
-}
-
-@media (max-width: 1024px) {
-    .container__row--design {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 400px;
-        margin: 0 auto;
-        padding-top: 1em;
-
-    }
-
-    .container {
-        max-width: 400px;
-        margin: 0 auto;
-        padding: 1.5em 0;
-        line-height: 1em;
-    }
-
-    .column1__page {
-        height: 40vh;
-        width: 100%;
-        background-image: url("../images/product-cover-133.png");
-    }
-
-    .column2__page {
-        height: 40vh;
-        width: 100%;
-        background-image: url("../images/product-cover-131.png");
-    }
-
-    .column3__page {
-        height: 40vh;
-        width: 100%;
-        background-image: url("../images/product-cover-130.png");
-    }
-
-    .column4__page {
-        height: 40vh;
-        width: 100%;
-        background-image: url("../images/product-cover-132.png");
-    }
-
-    .product {
-        font-family: Montserrat;
-        font-size: 2em;
-        font-weight: 700;
-        line-height: 1.5em;
-        color: #252b42;
-    }
-
-    .physics {
-        font-family: Montserrat;
-        font-size: 0.9em;
-        font-weight: 600;
-        width: 100%;
-        color: #737373;
-    }
-}
-
-@media (max-width: 768px) {
-    .container__row--design {
-        grid-template-columns: 1fr;
-    }
-
-     .column1__page {
-        height: 40vh;
-        width: 60%;
-        background-image: url("../images/product-cover-133.png");
-    }
-
-    .column2__page {
-        height: 40vh;
-        width: 60%;
-        background-image: url("../images/product-cover-131.png");
-    }
-
-    .column3__page {
-        height: 40vh;
-        width: 60%;
-        background-image: url("../images/product-cover-130.png");
-    }
-
-    .column4__page {
-        height: 40vh;
-        width: 60%;
-        background-image: url("../images/product-cover-132.png");
-    }
-}
+/* Foter Section  css code ends here */
