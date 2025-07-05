@@ -2,6 +2,8 @@
 * {
   margin: 0;
   padding: 0;
+  max-width: 1440px;
+  max-height: 729px;
   box-sizing: border-box;
 }
 
@@ -13,8 +15,8 @@ body {
 
 /* Container width setup */
 .container {
-  width: 1440px;
-  height: 729px;
+  max-width: 1440px;
+  max-height: 729px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -124,6 +126,7 @@ body {
 }
 
 .hero-content h1 {
+  max-width: 300;
   font-size: 52px;
   font-weight: 800;
   line-height: 64px;
@@ -152,13 +155,10 @@ body {
   border: none;
   cursor: pointer;
   
-  width: 133;
-  height: 52;
+  width: 133px;
+  height: 52px;
   gap: 10px;
-  padding-top: 15px;
-  padding-right: 40px;
-  padding-bottom: 15px;
-  padding-left: 40px;
+  padding-top: 15px 40px;
   border-radius: 5px;
 }
 
