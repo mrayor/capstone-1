@@ -6,17 +6,17 @@
   max-width: 1440px;
   max-height: 729px;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
   color: #252422;
   background-color: #fffef2;
 }
 
 body, html {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -200,6 +200,174 @@ body, html {
 
 /* Section 3 CSS here */
 
+
+.section-3 {
+  background: #fff;
+  /* min-height: 100vh; */
+  width: 1440px;
+  /* width: 100%; */
+  height: 683px;
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1050px;
+  width: 100%;
+  max-height: 683px;
+  height: 100%;
+  padding: 160px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  max-height: 363px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+.text-content {
+  flex: 1;
+  max-width: 507px;
+  height: 296px;
+  max-height: 296px;
+  gap: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content .line {
+  width: 94px;
+  height: 7px;
+  background-color: #e74040;
+}
+
+.text-content h1 {
+  width: 342px;
+  height: 100px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.text-content p {
+  width: 351px;
+  height: 60px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.learn-more {
+  width: 101px;
+  height: 24px;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.learn-more h6{
+  width: 82px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #FC724D;
+  display: inline;
+}
+
+.learn-more span {
+  width: 9px;
+  height: 16px;
+  color: #FC724D;
+}
+
+.video-section {
+  flex: 1;
+  max-width: 513px;
+  width: 100%;
+  max-height: 363px;
+  height: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  gap: 30px;
+}
+
+.video-wrapper {
+  /* position: relative; */
+  max-width: 513px;
+  width: 100%;
+  max-height: 363px;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.video-thumbnail {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%); */
+}
+ 
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 97px;
+  height: 97px;
+  background: rgba(255, 94, 58, 0.85);
+  color: #fff;
+  font-size: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background 0.3s ease;
+  animation: pulse 1.8s infinite;
+}
+
+.play-button:hover {
+  background: rgba(255, 94, 58, 1);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 94, 58, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(255, 94, 58, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 94, 58, 0);
+  }
+}
 /* Section 3 css code ends here */
 
 /* Section 4 CSS here */
@@ -216,6 +384,171 @@ body, html {
 
 /* Section 7 CSS here */
 
+.team-section{
+max-width: 1440px;
+width: 100%;
+max-height: 849px;
+height: 100%;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.team-container {
+max-width: 1050px;
+width: 100%;
+max-height: 849px;
+height: 100%;
+padding: 112px 0;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+/* align-items: center; */
+gap: 112px;
+}
+
+.team-content{
+width: 1044px;
+height: 134px;
+display: flex;
+flex-direction: column;
+}
+
+.team-description{
+width: 691px;
+height: 134px;
+gap: 10px;
+}
+
+.team-description h6{
+width: 40px;
+height: 24px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #FC724D;
+}
+
+.team-description h2{
+width: 200px;
+height: 50px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+letter-spacing: 0.2px;
+color: #252B42;
+}
+.team-description p{
+width: 469px;
+height: 40px;
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #737373;
+}
+  
+.team-stack {
+  max-width: 1050px;
+  width: 100%;
+  max-height: 375px;
+  height: 100%;
+  display: flex;
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+  gap: 30px;
+}
+
+.card-box{
+  max-width: 240px;
+  max-height: 375px;
+  display: flex;
+}
+
+.team-card {
+width: 240px;
+height: 375px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+border-radius: 15px;
+/* overflow: hidden; */
+background-color: #fff;
+box-shadow: 0px 13px 19px 0px #00000012;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.team-img {
+  width: 240px;
+  height: 231px;
+  object-fit: cover;
+}
+
+.team-body {
+max-width: 232px;
+width: 100%;
+max-height: 144px;
+height: 100%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+/* padding: 30px; */
+align-items: center;
+}
+
+.team-body h5 {
+  width: 127px;
+  height: 24px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #252B42;
+  margin: 0;
+}
+
+.team-body small {
+  width: 66px;
+  height: 16px;
+  font-family: 'Montserrat''Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+}
+
+.social-icons {
+  /* width: 112px; */
+  height: 24px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #e74c3c;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #c0392b;
+}
 /* Section 7 css code ends here */
 
 /* Section 8 CSS here */
