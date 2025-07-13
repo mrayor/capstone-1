@@ -257,9 +257,7 @@ input {
   background-color: #737373;
   color: #000;
 }
-  background-color: #737373;
-  color: #000;
-}
+
 
 @media (max-width: 768px) {
   h1 {
